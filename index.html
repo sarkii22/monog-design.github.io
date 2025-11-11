@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mono'G Design Studio - Custom Orders & Freelance</title>
+    <!-- Load Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #3f4f6e; }
+        .bg-hero {
+            background-color: #1f2937; /* Dark background */
+        }
+        .text-neon {
+            color: #fcd34d; /* Tailwind yellow-300 */
+        }
+        /* Custom form styling for a clean look */
+        .input-style {
+            @apply w-full p-4 border border-gray-600 rounded-lg shadow-sm text-gray-900 focus:ring-yellow-500 focus:border-yellow-500 transition duration-150;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 p-4 shadow-xl sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <span class="text-3xl font-extrabold text-white tracking-widest flex items-center">
+                <i data-lucide="diamond" class="text-yellow-500 w-8 h-8 mr-2"></i> MONO'G
+            </span>
+            <div class="space-x-4">
+                <a href="#portfolio" class="text-gray-300 hover:text-yellow-500 transition duration-150 font-medium hidden sm:inline">
+                    Portfolio & Skills
+                </a>
+                <a href="#contact-section" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded-lg text-sm transition duration-150 shadow-md">
+                    Get a Quote
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-hero text-white py-20 md:py-32 flex items-center justify-center">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-black mb-4 tracking-tight">
+                Design <span class="text-neon">Excellence</span> That Gets You Paid.
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-400 mb-8">
+                **Custom Apparel, Advanced Digital Design, & Freelance Technical Solutions.** Secure your next high-value project now.
+            </p>
+            <a href="#contact-section" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-4 px-8 rounded-xl text-lg uppercase tracking-wide transition duration-300 shadow-xl inline-flex items-center">
+                <i data-lucide="zap" class="w-6 h-6 mr-3"></i> START YOUR CUSTOM ORDER NOW
+            </a>
+        </div>
+    </header>
+
+    <!-- Value Proposition/Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-extrabold text-gray-800 mb-12">How We Achieve Your Goals</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1: Apparel & Embroidery -->
+                <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 border-t-4 border-yellow-500">
+                    <i data-lucide="shirt" class="w-10 h-10 text-yellow-500 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Custom Apparel & Embroidery</h3>
+                    <p class="text-gray-600">High-quality, professional embroidery design and production for brands and individuals. Fast turnaround ensures you get your products and start selling immediately.</p>
+                </div>
+
+                <!-- Card 2: Advanced Technical Design -->
+                <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 border-t-4 border-yellow-500">
+                    <i data-lucide="code" class="w-10 h-10 text-yellow-500 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Advanced Technical Design (virtualkali)</h3>
+                    <p class="text-gray-600">Leverage my unique skills, including expertise with **virtualkali** and other powerful tools, for complex digital design, automation, or specialized security/workflow projects. This is where high-margin freelance work begins.</p>
+                </div>
+
+                <!-- Card 3: Career Portfolio -->
+                <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 border-t-4 border-yellow-500">
+                    <i data-lucide="briefcase" class="w-10 h-10 text-yellow-500 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Career & LinkedIn Portfolio</h3>
+                    <p class="text-gray-600">This site acts as your dynamic resume, showcasing verified skills and completed projects to attract recruiters, clients, and partners from platforms like LinkedIn.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Showcase Section -->
+    <section id="portfolio" class="py-16 md:py-24 bg-gray-800">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-extrabold text-white mb-4">Technical Skills Showcase</h2>
+            <p class="text-xl text-gray-400 mb-12">Attract advanced freelance clients by proving your technical capabilities:</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="bg-gray-700 text-yellow-300 px-6 py-3 rounded-full font-semibold shadow-lg">virtualkali proficiency</span>
+                <span class="bg-gray-700 text-yellow-300 px-6 py-3 rounded-full font-semibold shadow-lg">Web Development (HTML/CSS/JS)</span>
+                <span class="bg-gray-700 text-yellow-300 px-6 py-3 rounded-full font-semibold shadow-lg">Flask / Python Backend</span>
+                <span class="bg-gray-700 text-yellow-300 px-6 py-3 rounded-full font-semibold shadow-lg">Digital Design & Vectorization</span>
+                <span class="bg-gray-700 text-yellow-300 px-6 py-3 rounded-full font-semibold shadow-lg">Workflow Automation</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-section" class="py-16 md:py-24 bg-gray-50 flex justify-center items-center">
+        <div class="w-full max-w-md bg-white p-8 rounded-xl shadow-2xl border-t-8 border-yellow-500">
+            <h2 class="text-3xl font-extrabold text-gray-900 mb-2 text-center">Ready to Start Earning?</h2>
+            <p class="text-gray-600 mb-6 text-center">Fill out the form to get a quote or discuss a freelance project.</p>
+            
+            <!-- FORM ACTION: SWITCHED TO FORMSPREE -->
+            <form action="https://formspree.io/f/f/YOUR_UNIQUE_FORM_ID" method="POST" class="mt-8 space-y-5">
+
+                <!-- HIDDEN FIELD: This tells Formspree which email to use -->
+                <input type="hidden" name="_replyto" value="isyakua021@gmail.com">
+
+                <!-- Hidden Input for Subject Line -->
+                <input type="hidden" name="_subject" value="NEW MONO'G ORDER (via Formspree)">
+                
+                <!-- Name Field -->
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                    <input type="text" name="Name" id="name" placeholder="mono.g" required class="input-style">
+                </div>
+
+                <!-- Email Field -->
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Contact Email</label>
+                    <input type="email" name="_replyto" id="email" placeholder="client@example.com" required class="input-style">
+                </div>
+
+                <!-- Project Details Textarea -->
+                <div>
+                    <label for="details" class="block text-sm font-medium text-gray-700 mb-1">Project Details (Goals, Budget, Timeline)</label>
+                    <textarea name="Project Details" id="details" rows="4" placeholder="I need 10 embroidered shirts and a Python script to automate my inventory..." required class="input-style resize-none"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="w-full bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 rounded-lg text-lg uppercase tracking-wider transition duration-300 shadow-md transform hover:scale-[1.01]">
+                    Send Quote Request
+                </button>
+            </form>
+            <p class="text-xs text-gray-500 mt-4 text-center">**Guaranteed Delivery:** Your request will be sent to your dedicated inbox.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-6">
+        <div class="max-w-7xl mx-auto px-4 text-center text-sm">
+            &copy; 2024 Mono'G Design Studio. All rights reserved.
+            <div class="mt-2 space-x-4">
+                <a href="#" class="hover:text-yellow-500 transition duration-150">Privacy Policy</a>
+                <a href="#" class="hover:text-yellow-500 transition duration-150">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
